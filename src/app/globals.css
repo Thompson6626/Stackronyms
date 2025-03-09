@@ -23,6 +23,12 @@
   box-sizing: border-box;
 }
 
+* {
+  color: black;
+  font-size: 1.2rem;
+}
+
+
 body {
   color: var(--foreground);
   background: var(--background);
