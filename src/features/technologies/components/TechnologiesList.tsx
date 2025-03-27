@@ -82,9 +82,8 @@ export default function TechnologiesPickList() {
                     Technologies I got from AI
                 </span>
             </div>
-            {/* Search text field */}
             <div className="flex flex-col items-center  max-w-1/2 w-1/2 h-screen">
-                {/* Make it bigger */}
+                {/* Search text field */}
                 <div className="p-5 pb-5">
                     <input
                         type="text"
@@ -95,6 +94,7 @@ export default function TechnologiesPickList() {
                         className="px-4 py-2 w-full border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
+                {/* Technologies to select */}
                 <div className="w-3/4 flex flex-wrap gap-3 overflow-y-auto scroll-smooth p-4 group hover:overflow-y-auto">
                     {technologies.map((technology) => (
                         <Chip
@@ -107,11 +107,11 @@ export default function TechnologiesPickList() {
             </div>
 
             <div className="w-1/2 p-16 flex flex-col justify-start items-start">
-                {/* Remove All Button */}
                 <div className="flex justify-between w-full mb-15">
                     <AnimatePresence>
                         {selectedTechnologies.length > 0 && (
                             <>
+                                {/* Copy to clipboard */}
                                 <AnimatedButton
                                     className="relative px-4 py-2 bg-white text-black border border-black rounded-md hover:bg-gray-200 transition"
                                     onClick={copyToClipboard}
@@ -132,7 +132,7 @@ export default function TechnologiesPickList() {
                                         </motion.span>
                                     )}
                                 </AnimatedButton>
-
+                                {/* Remove All Button */}
                                 <AnimatedButton onClick={resetSelectedTechnologies} className="self-end mb-4 px-4 py-2 bg-red-500 text-white rounded-xl shadow-md hover:bg-red-600 transition-all flex items-center gap-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
                                         <path d="M3 6h18"></path>
@@ -147,6 +147,7 @@ export default function TechnologiesPickList() {
                     </AnimatePresence>
                 </div>
 
+                {/* Selected techologies */}
                 <AnimatePresence>
                     {selectedTechnologies.map((technology) => (
                         <AcronymPart
