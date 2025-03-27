@@ -1,0 +1,26 @@
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.5), transparent 70%);
+    transition: transform 0.4s ease-out;
+}
+
+.button:hover::before {
+    transform: translateX(150%);
+}
