@@ -11,7 +11,7 @@ export function Chip(
         <motion.div
             whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
             whileTap={{ scale: 0.90 }}
-            className={`${styles.button} rounded-full text-lg bg-gray-500 text-white px-4 py-2 cursor-pointer shadow-md hover:bg-gray-800`}
+            className={`${styles.button} rounded-lg text-lg bg-gray-500 text-white px-4 py-2 cursor-pointer shadow-md hover:bg-gray-800`}
             onClick={clickAdd}
         >
             {text}

@@ -106,7 +106,7 @@ export default function TechnologiesPickList() {
                 </div>
             </div>
 
-            <div className="w-1/2 p-16 flex flex-col justify-start items-start">
+            <div className="w-1/2 p-16 mr-10 flex flex-col justify-start items-start">
                 <div className="flex justify-between w-full mb-15">
                     <AnimatePresence>
                         {selectedTechnologies.length > 0 && (
