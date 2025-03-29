@@ -1,6 +1,9 @@
 # 🚀 Stackronyms
 
-Stackronyms is a fun web app that helps you generate hilarious technology-related acronyms. Whether you're brainstorming a ridiculous new stack or need an acronym-filled README, Stackronyms has you covered!
+Stackronyms is a fun web app that generates hilarious tech-related acronyms. Whether you're inventing a bizarre new stack or spicing up your README with acronym overload, Stackronyms has you covered!
+
+![Stackronyms Screenshot](./public/showcase.png)
+
 
 ## 🎉 Features
 - 🏗️ **Generate Tech Acronyms** – Create funny and absurd acronyms using popular tech stacks.
