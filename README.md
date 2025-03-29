@@ -72,7 +72,7 @@ npm run db:studio    # Open Drizzle Studio
 
 1. Go to [Neon](https://neon.tech) and sign up.
 2. Click **"Create a New Project"**.
-3. Choose **"PostgreSQL 15"** as the database version.
+3. Choose **"PostgreSQL 17"** as the database version.
 4. Set a **project name** (e.g., `stackronyms-db`).
 5. Once created, go to **"Connection Details"**, and copy the `DATABASE_URL`.
     - It will look like this:
