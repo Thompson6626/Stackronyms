@@ -8,7 +8,6 @@ Stackronyms is a fun and creative web app that generates hilarious tech-related 
 
 ## 🌟 Features
 - 🏗 **Generate Tech Acronyms** – Create funny and absurd acronyms using popular tech stacks.
-- 📜 **README Generator** – Instantly format your acronyms into a professional (or totally chaotic) README.
 - ⚡ **Instant Sharing** – Copy your generated acronym with one click or take a quick screenshot.
 
 ---
