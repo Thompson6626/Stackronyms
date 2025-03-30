@@ -58,6 +58,26 @@ export default function TechnologiesPickList() {
     return (
         <div className="flex gap-2 mt-16">
             <div className="flex flex-col items-center max-w-1/2 w-1/2 h-screen">
+                {/* Info Icon with Tooltip */}
+                <div className="absolute top-0 left-0 p-4 group">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="w-6 h-6 text-gray-700 cursor-pointer group-hover:text-blue-500 transition-all"
+                    >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                        <line x1="12" y1="8" x2="12" y2="8"></line>
+                    </svg>
+                    <span className="mt-2 absolute left-10 top-1/2 transform -translate-y-1/2 bg-gray-900 text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                    Technologies I got from AI
+                </span>
+                </div>
                 <div className="p-5 pb-5">
                     <input
                         type="text"
