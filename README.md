@@ -22,8 +22,8 @@ Stackronyms is a fun web app that generates hilarious tech-related acronyms. Whe
 
 ## 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/stackronyms.git  
-cd stackronyms  
+git clone https://github.com/Thompson6626/Stackronyms.git  
+cd Stackronyms  
 ```  
 
 ## 2️⃣ Set Up Environment Variables
